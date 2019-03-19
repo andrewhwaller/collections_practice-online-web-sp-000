@@ -20,7 +20,6 @@ end
 
 def kesha_maker(array)
   array.each do |string| string.delete 3 and string.insert 3, "$"
-
   end
   array
 end
