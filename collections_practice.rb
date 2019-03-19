@@ -38,6 +38,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[0] + "s"
-  array[2..] + "s"
+  array.each do |element|
+    if element == element
+      element
+    else
+      element + "s"
+  end
+  array
 end
