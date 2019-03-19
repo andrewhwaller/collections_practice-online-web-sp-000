@@ -38,6 +38,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[0] << "s"
-  array[2..] << "s"
+  array[0] + "s"
+  array[2..] + "s"
 end
